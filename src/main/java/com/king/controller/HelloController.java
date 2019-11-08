@@ -14,7 +14,7 @@ public class HelloController {
 	
 	@RequestMapping(value="/err", method=RequestMethod.GET)
 	public String errorHello() throws InterruptedException {
-		Thread.sleep(10000);
+		Thread.sleep(500);
 		return "Hello, Error";
 	}
 }	
